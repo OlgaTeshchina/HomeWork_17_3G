@@ -1,4 +1,5 @@
 package TaskTwo
+
 import java.time.LocalDate
 import kotlin.math.pow
 
@@ -14,12 +15,12 @@ class TypeDefiner {
         }
     }
 
-    private fun lessDateTinkoff(localDate: LocalDate): String{
+    private fun lessDateTinkoff(localDate: LocalDate): String {
         val tinkoffFoundingDate = LocalDate.parse("2006-12-24")
-        if(localDate.isBefore(tinkoffFoundingDate)){
-            return "эта дата меньше, чем дата основания Tinkoff"
-        }
-        else
-            return "эта дата не меньше, чем дата основания Tinkoff"
-        }
+
+        return if (localDate.isBefore(tinkoffFoundingDate)) {
+            "эта дата меньше, чем дата основания Tinkoff"
+        } else
+            "эта дата не меньше, чем дата основания Tinkoff"
+    }
 }

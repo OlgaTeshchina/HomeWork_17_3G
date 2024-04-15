@@ -29,7 +29,7 @@ fun runTaskTwo(){
     println(taskTwo.defineType(true))
 }
 
-fun runTaskThree(){
+fun runTaskThree() {
     val taskThreeCat = Lion()
     taskThreeCat.swimSpeed = 2.0
     taskThreeCat.runSpeed = 3.1
