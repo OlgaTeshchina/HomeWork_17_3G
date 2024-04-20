@@ -1,6 +1,6 @@
 package taskThree
 
-class Lion: Cat() {
+class Lion(runSpeed: Double, swimSpeed: Double) : Cat(runSpeed, swimSpeed) {
     override fun swim() {
         println("I am a Lion, and i swimming")
     }

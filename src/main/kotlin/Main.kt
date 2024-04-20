@@ -30,16 +30,13 @@ fun runTaskTwo(){
 }
 
 fun runTaskThree() {
-    val taskThreeCat = Lion()
-    taskThreeCat.swimSpeed = 2.0
-    taskThreeCat.runSpeed = 3.1
+    val taskThreeCat = Lion(3.1, 2.0)
 
     println("Cуммарная скорость Льва ${taskThreeCat.totalSpeed}")
     println(taskThreeCat.run())
     println(taskThreeCat.swim())
 
-    val taskThreeFish = Carp()
-    taskThreeFish.swimSpeed = 2.2
+    val taskThreeFish = Carp(2.2)
 
     println("Cуммарная скорость Карпа ${taskThreeFish.totalSpeed}")
     println(taskThreeFish.swim())

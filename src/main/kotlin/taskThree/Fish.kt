@@ -1,7 +1,6 @@
 package taskThree
 
-open class Fish: Pet(), Swimmable {
-    override var swimSpeed = 0.0
+open class Fish(override var swimSpeed: Double) : Pet(), Swimmable {
 
     override val totalSpeed: Double
         get() {return this.swimSpeed}

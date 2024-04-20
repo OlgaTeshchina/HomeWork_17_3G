@@ -1,6 +1,6 @@
 package taskThree
 
-class Tiger: Cat() {
+class Tiger(runSpeed: Double, swimSpeed: Double) : Cat(runSpeed, swimSpeed) {
     override val totalSpeed: Double
         get() = super.totalSpeed
 

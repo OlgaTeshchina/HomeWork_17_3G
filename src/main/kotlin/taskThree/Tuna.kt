@@ -1,6 +1,6 @@
 package taskThree
 
-class Tuna: Fish() {
+class Tuna(swimSpeed: Double) : Fish(swimSpeed) {
     override val totalSpeed: Double
         get() = super.totalSpeed
 
