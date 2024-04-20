@@ -1,4 +1,4 @@
-package TaskThree
+package taskThree
 
 open class Cat: Pet(), Runnable, Swimmable {
     override var runSpeed = 0.0

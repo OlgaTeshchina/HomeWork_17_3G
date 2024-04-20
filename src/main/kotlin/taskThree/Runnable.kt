@@ -1,4 +1,4 @@
-package TaskThree
+package taskThree
 
 interface Runnable  {
    var runSpeed: Double

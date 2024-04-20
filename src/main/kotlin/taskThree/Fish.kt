@@ -1,4 +1,4 @@
-package TaskThree
+package taskThree
 
 open class Fish: Pet(), Swimmable {
     override var swimSpeed = 0.0

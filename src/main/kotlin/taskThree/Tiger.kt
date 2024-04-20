@@ -1,4 +1,4 @@
-package TaskThree
+package taskThree
 
 class Tiger: Cat() {
     override val totalSpeed: Double

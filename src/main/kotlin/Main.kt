@@ -1,7 +1,7 @@
-import TaskOne.CharacterCounter
-import TaskThree.Carp
-import TaskThree.Lion
-import TaskTwo.TypeDefiner
+import taskOne.CharacterCounter
+import taskThree.Carp
+import taskThree.Lion
+import taskTwo.TypeDefiner
 import java.time.LocalDate
 
 fun main() {

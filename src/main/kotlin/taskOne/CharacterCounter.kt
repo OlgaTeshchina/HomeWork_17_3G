@@ -1,4 +1,4 @@
-package TaskOne
+package taskOne
 
 class CharacterCounter() {
     fun countChar(str: String, char: Char): String {

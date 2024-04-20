@@ -1,4 +1,4 @@
-package TaskThree
+package taskThree
 
 class Lion: Cat() {
     override fun swim() {
